@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="4db5c331-69f1-46b6-970e-8f83d187dea0" solutionId="4db5c331-69f1-46b6-970e-8f83d187dea0" resetWebServer="false" sharePointProductVersion="15.0" name="BootcampVoiceSP.SharePoint" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c8704385-a91f-484b-bc9f-66e36957dff5" />
+  </features>
+</package>

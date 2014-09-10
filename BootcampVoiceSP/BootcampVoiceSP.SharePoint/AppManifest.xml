@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created:0f94c101-eca2-421b-9ee1-671ad586290e-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="BootcampVoiceSP" ProductID="{5c462011-496a-4b24-8c96-a9abaa833c3b}" Version="1.0.0.0" SharePointMinVersion="15.0.0.0">
+  <Properties>
+    <Title>BootcampVoiceSP</Title>
+    <StartPage>~remoteAppUrl/SharePointLaunch.aspx?{StandardTokens}</StartPage>
+  </Properties>
+  <AppPrincipal>
+    <RemoteWebApplication ClientId="*" />
+  </AppPrincipal>
+  <AppPermissionRequests AllowAppOnlyPolicy="true">
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection/web" Right="Manage"></AppPermissionRequest>
+  </AppPermissionRequests>
+</App>
